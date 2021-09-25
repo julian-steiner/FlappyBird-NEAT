@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is Clang, found in "C:/dev/cpp/FlappyBird/build/CMakeFiles/3.20.2/CompilerIdC/a.exe"
+The C compiler identification is Clang, found in "C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/3.20.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/LLVM/bin/clang++.exe 
@@ -23,31 +23,31 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is Clang, found in "C:/dev/cpp/FlappyBird/build/CMakeFiles/3.20.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is Clang, found in "C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/3.20.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/dev/cpp/FlappyBird/build/CMakeFiles/CMakeTmp
+Change Dir: C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_26b62 && [1/2] Building C object CMakeFiles/cmTC_26b62.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_26b62.exe
+Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_17851 && [1/2] Building C object CMakeFiles/cmTC_17851.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_17851.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/dev/cpp/FlappyBird/build/CMakeFiles/CMakeTmp
+Change Dir: C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_1ae97 && [1/2] Building CXX object CMakeFiles/cmTC_1ae97.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_1ae97.exe
+Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_ff5f1 && [1/2] Building CXX object CMakeFiles/cmTC_ff5f1.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_ff5f1.exe
 
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/dev/cpp/FlappyBird/build/CMakeFiles/CMakeTmp
+Change Dir: C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_66fb5 && [1/2] Building CXX object CMakeFiles/cmTC_66fb5.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_66fb5.exe
+Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_0ba77 && [1/2] Building CXX object CMakeFiles/cmTC_0ba77.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_0ba77.exe
 
 
 
@@ -110,10 +110,10 @@ Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_66fb5 && [1/2] Building
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/dev/cpp/FlappyBird/build/CMakeFiles/CMakeTmp
+Change Dir: C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_3f0e5 && [1/2] Building CXX object CMakeFiles/cmTC_3f0e5.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_3f0e5.exe
+Run Build Command(s):C:/PROGRA~1/NINJA-~1/ninja.exe cmTC_37cd0 && [1/2] Building CXX object CMakeFiles/cmTC_37cd0.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_37cd0.exe
 
 
 

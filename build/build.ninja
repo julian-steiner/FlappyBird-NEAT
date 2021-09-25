@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_FlappyBird: phony || cmake_object_order_
 
 build CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch: CXX_COMPILER__FlappyBird_Release CMakeFiles/FlappyBird.dir/cmake_pch.hxx.cxx | CMakeFiles/FlappyBird.dir/cmake_pch.hxx || cmake_object_order_depends_target_FlappyBird
   DEP_FILE = CMakeFiles\FlappyBird.dir\cmake_pch.hxx.pch.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -x c++-header
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -x c++-header
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head
   OBJECT_DIR = CMakeFiles\FlappyBird.dir
   OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir
@@ -60,7 +60,7 @@ build CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch: CXX_COMPILER__FlappyBird_Rele
 
 build CMakeFiles/FlappyBird.dir/src/game/Main.cpp.obj: CXX_COMPILER__FlappyBird_Release ../src/game/Main.cpp | CMakeFiles/FlappyBird.dir/cmake_pch.hxx CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_FlappyBird
   DEP_FILE = CMakeFiles\FlappyBird.dir\src\game\Main.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head
   OBJECT_DIR = CMakeFiles\FlappyBird.dir
   OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir\src\game
@@ -69,7 +69,7 @@ build CMakeFiles/FlappyBird.dir/src/game/Main.cpp.obj: CXX_COMPILER__FlappyBird_
 
 build CMakeFiles/FlappyBird.dir/src/pipe/Pipe.cpp.obj: CXX_COMPILER__FlappyBird_Release ../src/pipe/Pipe.cpp | CMakeFiles/FlappyBird.dir/cmake_pch.hxx CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_FlappyBird
   DEP_FILE = CMakeFiles\FlappyBird.dir\src\pipe\Pipe.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head
   OBJECT_DIR = CMakeFiles\FlappyBird.dir
   OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir\src\pipe
@@ -78,7 +78,7 @@ build CMakeFiles/FlappyBird.dir/src/pipe/Pipe.cpp.obj: CXX_COMPILER__FlappyBird_
 
 build CMakeFiles/FlappyBird.dir/src/bird/Bird.cpp.obj: CXX_COMPILER__FlappyBird_Release ../src/bird/Bird.cpp | CMakeFiles/FlappyBird.dir/cmake_pch.hxx CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_FlappyBird
   DEP_FILE = CMakeFiles\FlappyBird.dir\src\bird\Bird.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head
   OBJECT_DIR = CMakeFiles\FlappyBird.dir
   OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir\src\bird
@@ -110,7 +110,7 @@ build FlappyBird.exe: CXX_EXECUTABLE_LINKER__FlappyBird_Release CMakeFiles/Flapp
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -122,7 +122,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -134,7 +134,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -146,7 +146,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -158,7 +158,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -167,7 +167,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/cpp/FlappyBird/CMakeLists.txt
+# C:/dev/cpp/FlappyBird-NEAT/CMakeLists.txt
 # =============================================================================
 
 
@@ -296,7 +296,7 @@ build cmake_object_order_depends_target_NeuralNetwork: phony || NeuralNetwork/CM
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch: CXX_COMPILER__NeuralNetwork_Release NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.cxx | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\cmake_pch.hxx.pch.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -x c++-header
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -x c++-header
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
@@ -306,7 +306,7 @@ build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch: CXX_COMPILER
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Neuron/src/Neuron.cpp.obj: CXX_COMPILER__NeuralNetwork_Release ../externals/NeuralNetwork/Neuron/src/Neuron.cpp | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Neuron\src\Neuron.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Neuron\src
@@ -316,7 +316,7 @@ build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Neuron/src/Neuron.cpp.obj: CXX_
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/NetworkBuffer.cpp.obj: CXX_COMPILER__NeuralNetwork_Release ../externals/NeuralNetwork/Network/src/NetworkBuffer.cpp | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src\NetworkBuffer.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src
@@ -326,7 +326,7 @@ build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/NetworkBuffer.cpp.o
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/NeuralNetwork.cpp.obj: CXX_COMPILER__NeuralNetwork_Release ../externals/NeuralNetwork/Network/src/NeuralNetwork.cpp | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src\NeuralNetwork.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src
@@ -336,7 +336,7 @@ build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/NeuralNetwork.cpp.o
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/Layer.cpp.obj: CXX_COMPILER__NeuralNetwork_Release ../externals/NeuralNetwork/Network/src/Layer.cpp | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src\Layer.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Network\src
@@ -346,7 +346,7 @@ build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Network/src/Layer.cpp.obj: CXX_
 build NeuralNetwork/CMakeFiles/NeuralNetwork.dir/Population/src/Population.cpp.obj: CXX_COMPILER__NeuralNetwork_Release ../externals/NeuralNetwork/Population/src/Population.cpp | NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_NeuralNetwork
   DEFINES = -DPROFILING
   DEP_FILE = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Population\src\Population.cpp.obj.d
-  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx
   INCLUDES = -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include
   OBJECT_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir
   OBJECT_FILE_DIR = NeuralNetwork\CMakeFiles\NeuralNetwork.dir\Population\src
@@ -475,7 +475,7 @@ build NeuralNetwork/Profiler.lib: CXX_STATIC_LIBRARY_LINKER__Profiler_Release Ne
 # Utility command for edit_cache
 
 build NeuralNetwork/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -487,7 +487,7 @@ build NeuralNetwork/edit_cache: phony NeuralNetwork/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build NeuralNetwork/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -505,7 +505,7 @@ build NeuralNetwork/list_install_components: phony
 # Utility command for install/local
 
 build NeuralNetwork/CMakeFiles/install/local.util: CUSTOM_COMMAND NeuralNetwork/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -517,7 +517,7 @@ build NeuralNetwork/install/local: phony NeuralNetwork/CMakeFiles/install/local.
 # Utility command for install
 
 build NeuralNetwork/CMakeFiles/install.util: CUSTOM_COMMAND NeuralNetwork/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -529,7 +529,7 @@ build NeuralNetwork/install: phony NeuralNetwork/CMakeFiles/install.util
 # Utility command for install/strip
 
 build NeuralNetwork/CMakeFiles/install/strip.util: CUSTOM_COMMAND NeuralNetwork/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -541,7 +541,7 @@ build NeuralNetwork/install/strip: phony NeuralNetwork/CMakeFiles/install/strip.
 # Custom command for NeuralNetwork\CMakeFiles\NightlyMemoryCheck
 
 build NeuralNetwork/CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyMemoryCheck"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyMemoryCheck"
   pool = console
 
 
@@ -549,7 +549,7 @@ build NeuralNetwork/CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\Experimental
 
 build NeuralNetwork/CMakeFiles/Experimental: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Experimental"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Experimental"
   pool = console
 
 
@@ -557,7 +557,7 @@ build NeuralNetwork/CMakeFiles/Experimental: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlySubmit
 
 build NeuralNetwork/CMakeFiles/NightlySubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlySubmit"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlySubmit"
   pool = console
 
 
@@ -565,7 +565,7 @@ build NeuralNetwork/CMakeFiles/NightlySubmit: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyConfigure
 
 build NeuralNetwork/CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyConfigure"
   pool = console
 
 
@@ -573,7 +573,7 @@ build NeuralNetwork/CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyBuild
 
 build NeuralNetwork/CMakeFiles/NightlyBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyBuild"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyBuild"
   pool = console
 
 
@@ -581,7 +581,7 @@ build NeuralNetwork/CMakeFiles/NightlyBuild: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyStart
 
 build NeuralNetwork/CMakeFiles/NightlyStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyStart"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyStart"
   pool = console
 
 
@@ -589,7 +589,7 @@ build NeuralNetwork/CMakeFiles/NightlyStart: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\Continuous
 
 build NeuralNetwork/CMakeFiles/Continuous: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Continuous"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Continuous"
   pool = console
 
 
@@ -597,7 +597,7 @@ build NeuralNetwork/CMakeFiles/Continuous: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyTest
 
 build NeuralNetwork/CMakeFiles/NightlyTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyTest"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyTest"
   pool = console
 
 
@@ -605,7 +605,7 @@ build NeuralNetwork/CMakeFiles/NightlyTest: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\Nightly
 
 build NeuralNetwork/CMakeFiles/Nightly: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Nightly"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D Nightly"
   pool = console
 
 
@@ -613,7 +613,7 @@ build NeuralNetwork/CMakeFiles/Nightly: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyUpdate
 
 build NeuralNetwork/CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyUpdate"
   pool = console
 
 
@@ -621,7 +621,7 @@ build NeuralNetwork/CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyCoverage
 
 build NeuralNetwork/CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyCoverage"
   pool = console
 
 
@@ -629,7 +629,7 @@ build NeuralNetwork/CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\NightlyMemCheck
 
 build NeuralNetwork/CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D NightlyMemCheck"
   pool = console
 
 
@@ -637,7 +637,7 @@ build NeuralNetwork/CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalBuild
 
 build NeuralNetwork/CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalBuild"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalBuild"
   pool = console
 
 
@@ -645,7 +645,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalStart
 
 build NeuralNetwork/CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalStart"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalStart"
   pool = console
 
 
@@ -653,7 +653,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalUpdate
 
 build NeuralNetwork/CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalUpdate"
   pool = console
 
 
@@ -661,7 +661,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousMemCheck
 
 build NeuralNetwork/CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousMemCheck"
   pool = console
 
 
@@ -669,7 +669,7 @@ build NeuralNetwork/CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalConfigure
 
 build NeuralNetwork/CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalConfigure"
   pool = console
 
 
@@ -677,7 +677,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalTest
 
 build NeuralNetwork/CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalTest"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalTest"
   pool = console
 
 
@@ -685,7 +685,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalCoverage
 
 build NeuralNetwork/CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalCoverage"
   pool = console
 
 
@@ -693,7 +693,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalMemCheck
 
 build NeuralNetwork/CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalMemCheck"
   pool = console
 
 
@@ -701,7 +701,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ExperimentalSubmit
 
 build NeuralNetwork/CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalSubmit"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalSubmit"
   pool = console
 
 
@@ -709,7 +709,7 @@ build NeuralNetwork/CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousStart
 
 build NeuralNetwork/CMakeFiles/ContinuousStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousStart"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousStart"
   pool = console
 
 
@@ -717,7 +717,7 @@ build NeuralNetwork/CMakeFiles/ContinuousStart: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousUpdate
 
 build NeuralNetwork/CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousUpdate"
   pool = console
 
 
@@ -725,7 +725,7 @@ build NeuralNetwork/CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousSubmit
 
 build NeuralNetwork/CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousSubmit"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousSubmit"
   pool = console
 
 
@@ -733,7 +733,7 @@ build NeuralNetwork/CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousConfigure
 
 build NeuralNetwork/CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousConfigure"
   pool = console
 
 
@@ -741,7 +741,7 @@ build NeuralNetwork/CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousBuild
 
 build NeuralNetwork/CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousBuild"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousBuild"
   pool = console
 
 
@@ -749,7 +749,7 @@ build NeuralNetwork/CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousTest
 
 build NeuralNetwork/CMakeFiles/ContinuousTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousTest"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousTest"
   pool = console
 
 
@@ -757,12 +757,12 @@ build NeuralNetwork/CMakeFiles/ContinuousTest: CUSTOM_COMMAND
 # Custom command for NeuralNetwork\CMakeFiles\ContinuousCoverage
 
 build NeuralNetwork/CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousCoverage"
   pool = console
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/cpp/FlappyBird/externals/NeuralNetwork/CMakeLists.txt
+# C:/dev/cpp/FlappyBird-NEAT/externals/NeuralNetwork/CMakeLists.txt
 # =============================================================================
 
 
@@ -770,7 +770,7 @@ build NeuralNetwork/CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
 # Utility command for install/local
 
 build NeuralNetwork/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND NeuralNetwork/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -782,7 +782,7 @@ build NeuralNetwork/googletest/install/local: phony NeuralNetwork/googletest/CMa
 # Utility command for install
 
 build NeuralNetwork/googletest/CMakeFiles/install.util: CUSTOM_COMMAND NeuralNetwork/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -794,7 +794,7 @@ build NeuralNetwork/googletest/install: phony NeuralNetwork/googletest/CMakeFile
 # Utility command for edit_cache
 
 build NeuralNetwork/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -806,7 +806,7 @@ build NeuralNetwork/googletest/edit_cache: phony NeuralNetwork/googletest/CMakeF
 # Utility command for rebuild_cache
 
 build NeuralNetwork/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -824,7 +824,7 @@ build NeuralNetwork/googletest/list_install_components: phony
 # Utility command for install/strip
 
 build NeuralNetwork/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND NeuralNetwork/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -833,7 +833,7 @@ build NeuralNetwork/googletest/install/strip: phony NeuralNetwork/googletest/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/CMakeLists.txt
+# C:/dev/cpp/FlappyBird-NEAT/externals/NeuralNetwork/googletest/CMakeLists.txt
 # =============================================================================
 
 
@@ -841,7 +841,7 @@ build NeuralNetwork/googletest/install/strip: phony NeuralNetwork/googletest/CMa
 # Utility command for install/local
 
 build NeuralNetwork/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND NeuralNetwork/googletest/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -853,7 +853,7 @@ build NeuralNetwork/googletest/googlemock/install/local: phony NeuralNetwork/goo
 # Utility command for install
 
 build NeuralNetwork/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND NeuralNetwork/googletest/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -865,7 +865,7 @@ build NeuralNetwork/googletest/googlemock/install: phony NeuralNetwork/googletes
 # Utility command for edit_cache
 
 build NeuralNetwork/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -947,7 +947,7 @@ build lib/gmock.lib: CXX_STATIC_LIBRARY_LINKER__gmock_Release NeuralNetwork/goog
 # Utility command for rebuild_cache
 
 build NeuralNetwork/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -965,7 +965,7 @@ build NeuralNetwork/googletest/googlemock/list_install_components: phony
 # Utility command for install/strip
 
 build NeuralNetwork/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND NeuralNetwork/googletest/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -974,7 +974,7 @@ build NeuralNetwork/googletest/googlemock/install/strip: phony NeuralNetwork/goo
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/googlemock/CMakeLists.txt
+# C:/dev/cpp/FlappyBird-NEAT/externals/NeuralNetwork/googletest/googlemock/CMakeLists.txt
 # =============================================================================
 
 
@@ -1058,7 +1058,7 @@ build lib/gtest_main.lib: CXX_STATIC_LIBRARY_LINKER__gtest_main_Release NeuralNe
 # Utility command for install/local
 
 build NeuralNetwork/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND NeuralNetwork/googletest/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1070,7 +1070,7 @@ build NeuralNetwork/googletest/googletest/install/local: phony NeuralNetwork/goo
 # Utility command for install
 
 build NeuralNetwork/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND NeuralNetwork/googletest/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1082,7 +1082,7 @@ build NeuralNetwork/googletest/googletest/install: phony NeuralNetwork/googletes
 # Utility command for edit_cache
 
 build NeuralNetwork/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1094,7 +1094,7 @@ build NeuralNetwork/googletest/googletest/edit_cache: phony NeuralNetwork/google
 # Utility command for rebuild_cache
 
 build NeuralNetwork/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird -BC:\dev\cpp\FlappyBird\build"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\cpp\FlappyBird-NEAT -BC:\dev\cpp\FlappyBird-NEAT\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1106,7 +1106,7 @@ build NeuralNetwork/googletest/googletest/rebuild_cache: phony NeuralNetwork/goo
 # Utility command for install/strip
 
 build NeuralNetwork/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND NeuralNetwork/googletest/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\cpp\FlappyBird-NEAT\build\NeuralNetwork\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1204,35 +1204,35 @@ build gtest_main.lib: phony lib/gtest_main.lib
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/cpp/FlappyBird/build
+# Folder: C:/dev/cpp/FlappyBird-NEAT/build
 
 build all: phony FlappyBird.exe NeuralNetwork/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/cpp/FlappyBird/build/NeuralNetwork
+# Folder: C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork
 
 build NeuralNetwork/all: phony NeuralNetwork/NeuralNetwork.lib NeuralNetwork/Profiler.lib NeuralNetwork/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/cpp/FlappyBird/build/NeuralNetwork/googletest
+# Folder: C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/googletest
 
 build NeuralNetwork/googletest/all: phony NeuralNetwork/googletest/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/cpp/FlappyBird/build/NeuralNetwork/googletest/googlemock
+# Folder: C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/googletest/googlemock
 
 build NeuralNetwork/googletest/googlemock/all: phony lib/gmock_main.lib lib/gmock.lib NeuralNetwork/googletest/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/cpp/FlappyBird/build/NeuralNetwork/googletest/googletest
+# Folder: C:/dev/cpp/FlappyBird-NEAT/build/NeuralNetwork/googletest/googletest
 
 build NeuralNetwork/googletest/googletest/all: phony lib/gtest.lib lib/gtest_main.lib
 
