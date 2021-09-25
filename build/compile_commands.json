@@ -1,0 +1,82 @@
+[
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -x c++-header -o CMakeFiles\\FlappyBird.dir\\cmake_pch.hxx.pch -c C:\\dev\\cpp\\FlappyBird\\build\\CMakeFiles\\FlappyBird.dir\\cmake_pch.hxx.cxx",
+  "file": "C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.cxx"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -o CMakeFiles\\FlappyBird.dir\\src\\game\\Main.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\src\\game\\Main.cpp",
+  "file": "C:/dev/cpp/FlappyBird/src/game/Main.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -o CMakeFiles\\FlappyBird.dir\\src\\pipe\\Pipe.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\src\\pipe\\Pipe.cpp",
+  "file": "C:/dev/cpp/FlappyBird/src/pipe/Pipe.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -std=gnu++17 -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/CMakeFiles/FlappyBird.dir/cmake_pch.hxx -o CMakeFiles\\FlappyBird.dir\\src\\bird\\Bird.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\src\\bird\\Bird.cpp",
+  "file": "C:/dev/cpp/FlappyBird/src/bird/Bird.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -emit-pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -x c++-header -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\cmake_pch.hxx.pch -c C:\\dev\\cpp\\FlappyBird\\build\\NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\cmake_pch.hxx.cxx",
+  "file": "C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.cxx"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\Neuron\\src\\Neuron.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Neuron\\src\\Neuron.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Neuron/src/Neuron.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\Network\\src\\NetworkBuffer.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Network\\src\\NetworkBuffer.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Network/src/NetworkBuffer.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\Network\\src\\NeuralNetwork.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Network\\src\\NeuralNetwork.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Network/src/NeuralNetwork.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\Network\\src\\Layer.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Network\\src\\Layer.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Network/src/Layer.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xclang -include-pch -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/dev/cpp/FlappyBird/build/NeuralNetwork/CMakeFiles/NeuralNetwork.dir/cmake_pch.hxx -o NeuralNetwork\\CMakeFiles\\NeuralNetwork.dir\\Population\\src\\Population.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Population\\src\\Population.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Population/src/Population.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -o NeuralNetwork\\CMakeFiles\\Profiler.dir\\Profiler\\src\\Profiler.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Profiler\\src\\Profiler.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Profiler/src/Profiler.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DPROFILING -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/Profiler/head -I../externals/NeuralNetwork/googletest/include -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -o NeuralNetwork\\CMakeFiles\\Profiler.dir\\Profiler\\src\\Timer.cpp.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\Profiler\\src\\Timer.cpp",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/Profiler/src/Timer.cpp"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -isystem ../externals/NeuralNetwork/googletest/googlemock/include -isystem ../externals/NeuralNetwork/googletest/googlemock -isystem ../externals/NeuralNetwork/googletest/googletest/include -isystem ../externals/NeuralNetwork/googletest/googletest -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o NeuralNetwork\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/googletest/googlemock/include -I../externals/NeuralNetwork/googletest/googlemock -isystem ../externals/NeuralNetwork/googletest/googletest/include -isystem ../externals/NeuralNetwork/googletest/googletest -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o NeuralNetwork\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -I../externals/NeuralNetwork/googletest/googletest/include -I../externals/NeuralNetwork/googletest/googletest -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o NeuralNetwork\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "C:/dev/cpp/FlappyBird/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I../head/bird -I../head/game -I../head/pipe -I../PixelGameEngine -I../externals/NeuralNetwork/Population/head -I../externals/NeuralNetwork/Network/head -I../externals/NeuralNetwork/Neuron/head -isystem ../externals/NeuralNetwork/googletest/googletest/include -isystem ../externals/NeuralNetwork/googletest/googletest -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o NeuralNetwork\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\dev\\cpp\\FlappyBird\\externals\\NeuralNetwork\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:/dev/cpp/FlappyBird/externals/NeuralNetwork/googletest/googletest/src/gtest_main.cc"
+}
+]
