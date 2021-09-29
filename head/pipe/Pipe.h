@@ -30,7 +30,8 @@ public:
     Pipe(Pipe& other) = default;
 
 public:
-    int holeSize = 300;
+    //int holeSize = 300;
+    int holeSize = 200;
     int size = 200;
     int width = 200;
 

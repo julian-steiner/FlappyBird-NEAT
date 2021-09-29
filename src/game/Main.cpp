@@ -212,8 +212,8 @@ public:
 		p = new population::Population(numBirds, &templateNetwork);
 
 		p->weightChangingRate = 0.3;
-		p->connectionAddingRate = 0.01;
-		//p->connectionAddingRate = 0.3;
+		//p->connectionAddingRate = 0.01;
+		p->connectionAddingRate = 0.3;
 		p->neuronAddingRate = 0.01;
 		p->learningRate = 0.2;
 
