@@ -23,6 +23,10 @@ private:
 private:
 	void handlePipesCreation()
 	{
+		for (int i = 0; i < 5; i++)
+		{
+			pipeBuffer[i] = Pipe();
+		}
 		pipeBuffer[0].moving = true;
 		collisionPipe = nullptr;
 		nearestPipe = &pipeBuffer[0];
@@ -84,7 +88,7 @@ private:
 	void handleBirdMovement(float fTimeElapsed, bool clicked, Bird& bird)
 	{
 		if (!bird.alive) return;
-
+		fTimeElapsed *= 2;
 		// Physics for the movement
 		bird.velocity += 800 * fTimeElapsed;
 		bird.position += bird.velocity * fTimeElapsed;
@@ -149,6 +153,7 @@ public:
 
 	void resetGame()
 	{
+		// Finding the fittest bird
 		double highestFitness = 0;
 		int highestBird = 0;
 		for (int i = 0; i < numBirds; i++)
@@ -160,18 +165,13 @@ public:
 			}
 			birds[i] = Bird();
 		}
-
 		nn::NeuralNetwork highest = p->getNetwork(highestBird)->getCopy<nn::NeuralNetwork>();
 
-		for (int i = 0; i < 4; i++)
-		{
-			pipeBuffer[i] = Pipe();
-		}
 		handlePipesCreation();
 
-		p->mutate();
 		p->speciate();
 		p->crossover();
+		p->mutate();
 
 		std::cout << "Number Of Species: " << p->getNumberOfSpecies() << std::endl;
 		std::cout << "Generation: " << generation << std::endl;
@@ -196,6 +196,7 @@ public:
 	//std::vector<Bird> birds = std::vector<Bird>();
 	//Bird birds[10];
 	std::vector<Bird> birds;
+	double saveTimer;
 
 	population::Population* p;
 	Pipe pipeBuffer[5];
@@ -204,17 +205,11 @@ public:
 	FlappyBird()
 	{
 		sAppName = "FlappyBird";
-		nn::NeuralNetwork templateNetwork;
-		templateNetwork.addLayer(2, neuron::Activation::Sigmoid, nn::LayerType::Input, nn::LayerConnectionType::FullyConnected);
-		templateNetwork.addLayer(0, neuron::Activation::Sigmoid, nn::LayerType::CustomConnectedHidden, nn::LayerConnectionType::CustomConnected);
-		//templateNetwork.addLayer(2, neuron::Activation::Sigmoid, nn::LayerType::Hidden, nn::LayerConnectionType::FullyConnected);
-		templateNetwork.addLayer(1, neuron::Activation::Binary, nn::LayerType::Output, nn::LayerConnectionType::FullyConnected);
-		p = new population::Population(numBirds, &templateNetwork);
+		p = new population::Population(numBirds, 3, 1);
 
 		p->weightChangingRate = 0.3;
-		//p->connectionAddingRate = 0.01;
 		p->connectionAddingRate = 0.3;
-		p->neuronAddingRate = 0.01;
+		p->neuronAddingRate = 0.05;
 		p->learningRate = 0.2;
 
 		p->targetNumberOfSpecies = 5;
@@ -246,12 +241,40 @@ public:
 			Bird& bird = birds[i];
 			nn::NeuralNetwork* currentNetwork = p->getNetwork(i);
 			//double action = currentNetwork->predict({bird.position, nearestPipe->holeLocation + nearestPipe->holeSize})[0];
-			double action = currentNetwork->predict({nearestPipe->position - birdPosition, nearestPipe->holeLocation + nearestPipe->holeSize/2 - bird.position})[0];
+			//bool action = currentNetwork->predict({nearestPipe->position - birdPosition, nearestPipe->holeLocation + nearestPipe->holeSize/2 - bird.position, bird.clickTimer})[0] >= 0.5;
+			bool action = currentNetwork->predict({nearestPipe->position, nearestPipe->holeLocation + nearestPipe->holeSize/2, bird.position})[0] >= 0.5;
 			//double action = GetMouse(0).bPressed;
 			handleBirdMovement(fElapsedTime, (bool)action, bird);
 
 			currentNetwork->fitness = bird.timeSurvived;
-			handleBirdMovement(fElapsedTime, GetMouse(0).bHeld, bird);
+		}
+
+		// Save the connection scheme of the fittest when the mouse key is pressed
+		saveTimer += fElapsedTime;
+		if (GetMouse(0).bHeld && saveTimer >= 2) 
+		{
+			saveTimer = 0;	
+
+			double highestFitness = 0;
+			int highestBird = 0;
+			for (int i = 0; i < numBirds; i++)
+			{
+				if (birds[i].timeSurvived > highestFitness)
+				{
+					highestFitness = birds[i].timeSurvived;
+					highestBird = i;
+				}
+			}
+
+			nn::NeuralNetwork highest = p->getNetwork(highestBird)->getCopy<nn::NeuralNetwork>();
+			highest.saveConnectionScheme("Highest.tex");
+			std::cout << "Saved connection Scheme" << std::endl;
+
+			for(int i = 0; i < highest.connections->size(); i++)
+			{
+				connection::Connection* connection = highest.connections->at(i);
+				std::cout << "[" << connection->inNeuronLocation.layer << ", " << connection->inNeuronLocation.number << "] -> [" << connection->outNeuronLocation.layer << ", " << connection->outNeuronLocation.number << "] "<<  connection->weight << std::endl;
+			}
 		}
 
 		handleCollisions();
