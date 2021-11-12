@@ -2,12 +2,17 @@
 
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
+#define OLC_PGEX_ANIMSPR
+#include "olcPGEX_AnimatedSprite.h"
+
 #include "Pipe.h"
 #include "Bird.h"
 #include <string>
 #include <chrono>
+#include <vector>
 
 #include "Population.h"
+#include "Logger.h"
 
 class FlappyBird : public olc::PixelGameEngine
 {
@@ -19,6 +24,10 @@ private:
 	Pipe* nearestPipe = nullptr;
 
 	int numBirds = 100;
+	std::vector<olc::AnimatedSprite> birdSprites;
+
+	logging::Logger* logger;
+	bool logging = false;
 
 private:
 	void handlePipesCreation()
@@ -115,15 +124,18 @@ private:
 		}
 	}
 
-	void drawBird()
+	void drawBird(const float& fElapsedTime)
 	{
 		//for (Bird& bird : birds)
 		for (int i = 0; i < numBirds; i++)
 		{
-			const Bird& bird = birds[i];
+			Bird& bird = birds[i];
 			if (!bird.alive) continue;
 
-			FillCircle({200, (int)bird.position}, bird.size, olc::Pixel(255, 120, 0));
+			//FillCircle({200, (int)bird.position}, bird.size, olc::Pixel(255, 120, 0));
+			if (bird.velocity >= 0) birdSprites.at(i).SetState("down");
+			else birdSprites.at(i).SetState("up");
+			birdSprites.at(i).Draw(fElapsedTime, {200-26 * 1.5, (float)bird.position - (26 * 1.5f)});
 		}
 	}
 
@@ -163,9 +175,12 @@ public:
 				highestFitness = birds[i].timeSurvived;
 				highestBird = i;
 			}
+			std::cout << "Adding bird" << std::endl;
 			birds[i] = Bird();
+			std::cout << "Added bird" << std::endl;
 		}
 		nn::NeuralNetwork highest = p->getNetwork(highestBird)->getCopy<nn::NeuralNetwork>();
+
 
 		handlePipesCreation();
 
@@ -209,7 +224,7 @@ public:
 
 		p->weightChangingRate = 0.3;
 		p->connectionAddingRate = 0.3;
-		p->neuronAddingRate = 0.05;
+		p->neuronAddingRate = 0.01;
 		p->learningRate = 0.2;
 
 		p->targetNumberOfSpecies = 5;
@@ -219,10 +234,37 @@ public:
 	}
 	int screenSize[2] = {1280, 720};
 
-public:
+	void attachLogger(logging::Logger* logger)
+	{
+		logging = true;
+		this->logger = logger;
+	}
 
+public:
 	bool OnUserCreate() override
 	{
+		birdSprites.reserve(numBirds);
+		for (int i = 0; i < numBirds; i++)
+		{
+			birdSprites.push_back(olc::AnimatedSprite());
+			olc::AnimatedSprite& currentSprite = birdSprites.at(i);
+			// Loading Sprites
+			currentSprite.type = olc::AnimatedSprite::SPRITE_TYPE::DECAL;
+			currentSprite.mode = olc::AnimatedSprite::SPRITE_MODE::MULTI;
+			currentSprite.SetSpriteSize({26, 26});
+			currentSprite.SetSpriteScale(3);
+			currentSprite.AddState("up", {
+				"../src/bird/Bird_up1.png",
+				"../src/bird/Bird_up2.png",
+				"../src/bird/Bird_up3.png"
+			});
+			currentSprite.AddState("down", {
+				"../src/bird/Bird_down1.png",
+				"../src/bird/Bird_down2.png",
+				"../src/bird/Bird_down3.png"
+			});
+		}
+
 		// Called once at the start, so create things here
 		resetGame();
 		handlePipesCreation();
@@ -277,11 +319,29 @@ public:
 			}
 		}
 
+		double highestFitness = 0;
+		int highestBird = 0;
+		for (int i = 0; i < numBirds; i++)
+		{
+			if (birds[i].timeSurvived > highestFitness)
+			{
+				highestFitness = birds[i].timeSurvived;
+				highestBird = i;
+			}
+		}
+
+		nn::NeuralNetwork highest = p->getNetwork(highestBird)->getCopy<nn::NeuralNetwork>();
+		if (highestFitness >= 120 || generation >= 200)
+		{
+			logger->addNetwork(highest, generation);
+			return false;
+		}
+
 		handleCollisions();
 
 		// Handle drawing of the pipes
 		drawPipes();
-		drawBird();
+		drawBird(fElapsedTime);
 
 		std::stringstream scoreText;
 		std::stringstream generationText;
@@ -307,15 +367,24 @@ public:
 		generationText << "Generation: " << generation;
 		DrawString({100, 100}, scoreText.str(), olc::Pixel(255, 255, 255), 2);
 		DrawString({100, 120}, generationText.str(), olc::Pixel(255, 255, 255), 2);
+
 		return true;
 	}
 };
 
 int main()
 {
-	FlappyBird flappyBird;
-	if (flappyBird.Construct(flappyBird.screenSize[0], flappyBird.screenSize[1l], 1, 1))
-		flappyBird.Start();
+	logging::Logger logger("Logfiles/GenerationsLog.tex");
+
+	for (int i = 0; i < 30; i++)
+	{
+		FlappyBird flappyBird;
+		flappyBird.attachLogger(&logger);
+		if (flappyBird.Construct(flappyBird.screenSize[0], flappyBird.screenSize[1l], 1, 1))
+			flappyBird.Start();
+
+		std::cout << i << std::endl;
+	}
 
 	return 0;
 }
