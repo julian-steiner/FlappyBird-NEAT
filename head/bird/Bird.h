@@ -14,10 +14,6 @@ public:
     double size = 20;
     double timeSurvived = 0;
 
-public:
-    Bird(){
-        std::cout << "created Bird" << std::endl;
-    }
 };
 
 #endif

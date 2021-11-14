@@ -25,6 +25,12 @@ private:
 
 	int numBirds = 100;
 	std::vector<olc::AnimatedSprite> birdSprites;
+	std::unique_ptr<olc::Sprite> pipeDownSpr;
+	std::unique_ptr<olc::Sprite> pipeUpSpr;
+	std::unique_ptr<olc::Decal> pipeDown;
+	std::unique_ptr<olc::Decal> pipeUp;
+	std::unique_ptr<olc::Sprite> backGroundSpr;
+	std::unique_ptr<olc::Decal> backGround;
 
 	logging::Logger* logger;
 	bool logging = false;
@@ -119,8 +125,10 @@ private:
 		{
 			int lowerPartHeight = (int)currentPipe.holeLocation + (int)currentPipe.holeSize;
 			int upperPartHeight = (int)currentPipe.holeLocation;
-			FillRect({(int)screenSize[0] - (int)currentPipe.position, lowerPartHeight}, {currentPipe.width, screenSize[1] - lowerPartHeight}, olc::Pixel(0, 255, 0));
-			FillRect({(int)screenSize[0] - (int)currentPipe.position, 0}, {currentPipe.width, upperPartHeight}, olc::Pixel(0, 255, 0));
+			//FillRect({(int)screenSize[0] - (int)currentPipe.position, lowerPartHeight}, {currentPipe.width, screenSize[1] - lowerPartHeight}, olc::Pixel(0, 255, 0));
+			//FillRect({(int)screenSize[0] - (int)currentPipe.position, 0}, {currentPipe.width, upperPartHeight}, olc::Pixel(0, 255, 0));
+			DrawDecal({(float)screenSize[0] - (float)currentPipe.position, (float)upperPartHeight-(160 * currentPipe.width / 26.0f)}, pipeDown.get(), {currentPipe.width / (float)26, currentPipe.width / (float)26});
+			DrawDecal({(float)screenSize[0] - (float)currentPipe.position, (float)lowerPartHeight}, pipeUp.get(), {currentPipe.width / (float)26, currentPipe.width / (float)26});
 		}
 	}
 
@@ -175,9 +183,7 @@ public:
 				highestFitness = birds[i].timeSurvived;
 				highestBird = i;
 			}
-			std::cout << "Adding bird" << std::endl;
 			birds[i] = Bird();
-			std::cout << "Added bird" << std::endl;
 		}
 		nn::NeuralNetwork highest = p->getNetwork(highestBird)->getCopy<nn::NeuralNetwork>();
 
@@ -195,7 +201,7 @@ public:
 			std::cout << "Highest Fitness: " << highestFitness << std::endl;
 			std::vector<std::string> structure = highest.getConnectionScheme();
 			for (const std::string& str : structure)
-		{
+			{
 				std::cout << str << std::endl;
 			}
 			generationCounter = 0;
@@ -231,6 +237,7 @@ public:
 
 		birds = std::vector<Bird>();
 		birds.reserve(numBirds);
+
 	}
 	int screenSize[2] = {1280, 720};
 
@@ -264,6 +271,12 @@ public:
 				"../src/bird/Bird_down3.png"
 			});
 		}
+		pipeUpSpr = std::make_unique<olc::Sprite>("../src/pipe/Pipe_up.png");
+		pipeDownSpr = std::make_unique<olc::Sprite>("../src/pipe/Pipe_down.png");
+		pipeUp = std::make_unique<olc::Decal>(pipeUpSpr.get());
+		pipeDown = std::make_unique<olc::Decal>(pipeDownSpr.get());
+		backGroundSpr = std::make_unique<olc::Sprite>("../src/game/Background.png");
+		backGround = std::make_unique<olc::Decal>(backGroundSpr.get());
 
 		// Called once at the start, so create things here
 		resetGame();
@@ -275,6 +288,10 @@ public:
 	bool OnUserUpdate(float fElapsedTime) override
 	{
 		Clear(olc::BLACK);
+		DrawDecal({0, 0}, backGround.get(), {screenSize[1] / 256.0f, screenSize[1] / 256.0f});
+		DrawDecal({144 * screenSize[1] / 256.0f, 0}, backGround.get(), {screenSize[1] / 256.0f, screenSize[1] / 256.0f});
+		DrawDecal({288 * screenSize[1] / 256.0f, 0}, backGround.get(), {screenSize[1] / 256.0f, screenSize[1] / 256.0f});
+		DrawDecal({432 * screenSize[1] / 256.0f, 0}, backGround.get(), {screenSize[1] / 256.0f, screenSize[1] / 256.0f});
 
 		// called once per frame
 		handlePipesMovement(fElapsedTime);
