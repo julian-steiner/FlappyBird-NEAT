@@ -11,7 +11,10 @@ set(PIXELGAMEENGINE PixelGameEngine/)
 find_package(OpenGL REQUIRED)
 find_package(X11 REQUIRED)
 find_package(Threads REQUIRED)
-find_package(PNG REQUIRED)
+
+if (UNIX)
+    find_package(PNG REQUIRED)
+endif (UNIX)
 
 include_directories(head/bird head/game head/pipe externals/PixelGameEngine externals/NeuralNetwork/Population/head ${LIB_HEAD} ${OPENGL_INCLUDE_DIRS} ${X11_INCLUDE_DIRS})
 
